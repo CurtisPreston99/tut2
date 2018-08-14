@@ -15,6 +15,7 @@ public class Greeter {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name;
   }
+<<<<<<< HEAD
 
   public static void main(String[] args) {
     if (args.length < 3) {
@@ -26,4 +27,6 @@ public class Greeter {
     Greeter greeter = new Greeter(language, country, name.toUpperCase());
     System.out.println(greeter.sayHello());
   }
+=======
+>>>>>>> feature-2
 }
